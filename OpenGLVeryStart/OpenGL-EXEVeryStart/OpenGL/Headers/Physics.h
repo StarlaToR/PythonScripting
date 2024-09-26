@@ -1,0 +1,14 @@
+#pragma once
+
+//Physics
+#define GRAVITY 0.05f
+
+//Player
+#define PLAYER_VERTICAL_ACCELERATION 1.2f
+#define PLAYER_MAX_VERTICAL_SPEED 4
+
+#define PLAYER_HORIZONTAL_ACCELERATION 0.4f
+#define PLAYER_MAX_HORIZONTAL_SPEED 3
+
+//Camera
+#define CAMERA_SPEED 80

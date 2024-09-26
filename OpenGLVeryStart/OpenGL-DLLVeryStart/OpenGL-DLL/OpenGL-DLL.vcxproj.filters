@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{5e3f2da9-fcd1-4167-82b7-a953f066c120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{9f721809-bb3e-4ec2-8031-f1341250a50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Debug">
+      <UniqueIdentifier>{96252d7d-e3f4-4ea4-8a14-230ad91ca6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core\Maths">
+      <UniqueIdentifier>{073e4a3c-e1ea-4d74-a0fb-2532caa7f744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Resources">
+      <UniqueIdentifier>{f3fbd530-eed8-43fa-b233-157061e6d4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Physics">
+      <UniqueIdentifier>{c6fd5ec5-e405-4103-b68e-4be95ed989b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\LowRenderer">
+      <UniqueIdentifier>{212f22fe-3292-427e-ac82-d8d4c75eceec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\imgui">
+      <UniqueIdentifier>{1614b29e-ffc0-4e8a-8fb7-a9941cf90dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Platformer">
+      <UniqueIdentifier>{5a7bbb2c-427b-4ea4-a84c-e35b927c3acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{9371c500-9016-402a-ac67-98ea24106956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{0ee06834-d178-48a3-9b8f-6854b7a6899f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Debug">
+      <UniqueIdentifier>{6b10e13d-6216-4d07-b7f6-2d4690392a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core\Maths">
+      <UniqueIdentifier>{f4a5ae99-e8c4-4e5d-823c-7598d2cc4a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\imgui">
+      <UniqueIdentifier>{2e1a3b6d-3a54-4ac6-8a2c-b882e206152d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\LowRenderer">
+      <UniqueIdentifier>{ee306f73-3075-424f-ae2f-13554a298734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Resources">
+      <UniqueIdentifier>{7a746e60-2149-40c2-a243-348ffc4b504d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Platformer">
+      <UniqueIdentifier>{a6f43bde-771a-4c23-9b8e-b8a6d93fb0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Physics">
+      <UniqueIdentifier>{196e36bb-3a8f-4c50-a522-f8962a428e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Script">
+      <UniqueIdentifier>{d954268a-f4d5-482f-9dd5-8df0a8a970a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\glad.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\App.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\main.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Log.cpp">
+      <Filter>Fichiers sources\Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Maths.cpp">
+      <Filter>Fichiers sources\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\IResource.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Model.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\ResourceManager.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Shader.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Texture.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\ThreadPool.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Transform.cpp">
+      <Filter>Fichiers sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Camera.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Light.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Mesh.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_demo.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_draw.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_tables.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_widgets.cpp">
+      <Filter>Fichiers sources\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\SceneManager.cpp">
+      <Filter>Fichiers sources\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Enemy.cpp">
+      <Filter>Fichiers sources\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\GameObject.cpp">
+      <Filter>Fichiers sources\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Player.cpp">
+      <Filter>Fichiers sources\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\PythonBinder.cpp">
+      <Filter>Fichiers sources\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OpenGL-EXEVeryStart\OpenGL\Sources\Scene.cpp">
+      <Filter>Fichiers sources\Platformer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\App.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Log.h">
+      <Filter>Fichiers d%27en-tête\Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Maths.h">
+      <Filter>Fichiers d%27en-tête\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imconfig.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_impl_glfw.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_impl_opengl3.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imgui_internal.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imstb_rectpack.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imstb_textedit.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\imgui\imstb_truetype.h">
+      <Filter>Fichiers d%27en-tête\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Camera.h">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Light.h">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Mesh.h">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\IResource.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Model.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Mutex.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\ResourceManager.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Shader.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Task.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Texture.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\ThreadPool.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Enemy.h">
+      <Filter>Fichiers d%27en-tête\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\GameObject.h">
+      <Filter>Fichiers d%27en-tête\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Player.h">
+      <Filter>Fichiers d%27en-tête\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\PythonBinder.h">
+      <Filter>Fichiers d%27en-tête\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Scene.h">
+      <Filter>Fichiers d%27en-tête\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\SceneManager.h">
+      <Filter>Fichiers d%27en-tête\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Physics.h">
+      <Filter>Fichiers d%27en-tête\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL-EXEVeryStart\OpenGL\Headers\Transform.h">
+      <Filter>Fichiers d%27en-tête\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\OpenGL-EXEVeryStart\OpenGL\Script\Player.py">
+      <Filter>Fichiers sources\Script</Filter>
+    </None>
+    <None Include="..\..\OpenGL-EXEVeryStart\OpenGL\Script\Controle.py">
+      <Filter>Fichiers sources\Script</Filter>
+    </None>
+    <None Include="..\..\OpenGL-EXEVeryStart\OpenGL\Script\Camera.py">
+      <Filter>Fichiers sources\Script</Filter>
+    </None>
+  </ItemGroup>
+</Project>
